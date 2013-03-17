@@ -10,6 +10,18 @@ Currently compiles
 
 Plans to support as much as possible from the node ecosystem
 
+## Installation
+
+``````
+npm install -g thick
+``````
+or in your local directory (be sure to add node_modules/.bin to your $PATH)
+
+``````
+npm install thick
+``````
+
+
 ## Usage
 
 ``````
@@ -56,3 +68,7 @@ config options are overwritten by command-line options
     $ thick -o ./out -be
 
 ``````
+
+## License
+
+BSD
