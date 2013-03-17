@@ -24,9 +24,10 @@ program
 	;
 
 program.on('--help', function(){
-	console.log('use thick to serve jade,less, and other template files and compile them on the fly');
-	console.log('you can pass more options by creating a local ./thick.js file');
-	console.log('config options are overwritten by command-line options');
+	console.log('  version '+thick.version);
+	console.log('  use thick to serve jade,less, and other template files and compile them on the fly');
+	console.log('  you can pass more options by creating a local ./thick.js file');
+	console.log('  config options are overwritten by command-line options');
 	console.log('');
 	console.log('  Examples:');
 	console.log('');
