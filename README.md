@@ -3,6 +3,7 @@
 A static file compiler for super-thick clients that do not care about server-side stuff
 
 Currently compiles
+
 	- jade
 	- handlebars
 	- less
@@ -31,9 +32,17 @@ $ mkdir site
 $ echo 'div.test' > ./site/index.jade
 $ thick
 
- ``````
+``````
 
- Server will be listening for changes and compiling on the fly.  
+ Server will be listening for changes and compiling on the fly (on port 8888 by default).  
+ Navigate with your browser to http://localhost:8888/ and see the rendered index.html  
+
+ You can build all your files by running
+
+``````
+$ thick -b
+``````
+
  Other options below:
 
 ``````

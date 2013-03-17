@@ -1,6 +1,6 @@
 {
   "name": "thick",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Framework for producing one-page client websites (no server)",
   "main": "index.js",
   "dependencies": {
@@ -22,6 +22,9 @@
     "type": "git",
     "url": "git://github.com/yelo-npm/thick.git"
   },
+  "bin":{
+    "thick":"./bin/thick"
+  }
   "keywords": [
     "static",
     "jade",
