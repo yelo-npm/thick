@@ -24,7 +24,7 @@
   },
   "bin":{
     "thick":"./bin/thick"
-  }
+  },
   "keywords": [
     "static",
     "jade",
