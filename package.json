@@ -1,6 +1,6 @@
 {
   "name": "thick",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Framework for producing one-page client websites (no server)",
   "main": "index.js",
   "dependencies": {
